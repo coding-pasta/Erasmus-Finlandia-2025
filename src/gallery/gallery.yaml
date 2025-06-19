@@ -5,86 +5,651 @@ collections:
     name: Travel
   - id: street
     name: Street
+
 images:
-  - path: nature/nature-2.jpg
+  - path: nature/img5.jpg
     meta:
-      title: Nature scene 2
-      description: Serene natural landscape capturing the essence of wilderness.
-      collections:
-        - nature
-    exif: {}
-  - path: nature/nature-3.jpg
-    meta:
-      title: Nature scene 3
-      description: Breathtaking natural vista showcasing environmental beauty.
+      title: ""
+      description: ""
       collections:
         - featured
         - nature
-    exif: {}
-  - path: nature/nature-5.jpg
+  - path: nature/img6.jpg
     meta:
-      title: Nature scene 5
-      description: Natural landscape showing the raw beauty of the environment.
-      collections:
-        - nature
-    exif: {}
-  - path: nature/nature-7.jpg
-    meta:
-      title: Nature scene 7
-      description: Stunning natural landscape capturing environmental beauty.
+      title: ""
+      description: ""
       collections:
         - featured
         - nature
-    exif: {}
-  - path: nature/nature-8.jpg
+  - path: nature/img7.jpg
     meta:
-      title: Nature scene 8
-      description: Beautiful natural vista showcasing environmental wonder.
-      collections:
-        - nature
-    exif: {}
-  - path: nature/L1002174.jpg
-    meta:
-      title: Travel scene 6
-      description: null
+      title: ""
+      description: ""
       collections:
         - featured
         - nature
-    exif:
-      captureDate: 2025-03-27T10:35:21.000Z
-      fNumber: 8
-      focalLength: 28
-      iso: 100
-      model: LEICA Q3
-      shutterSpeed: 1250
-      lensModel: SUMMILUX 1:1.7/28 ASPH.
-  - path: nature/nature-10.jpg
+  - path: nature/img8.jpg
     meta:
-      title: Nature scene 10
-      description: Majestic natural landscape displaying environmental splendor.
-      collections:
-        - nature
-    exif: {}
-  - path: street/stree-1.jpg
-    meta:
-      title: Street photography 1
-      description: Urban scene capturing the essence of city life.
+      title: ""
+      description: ""
       collections:
         - featured
-        - street
-    exif: {}
-  - path: travel/travel-1.jpg
+        - nature
+  - path: nature/img9.jpg
     meta:
-      title: Travel scene 1
-      description: Journey through remarkable destinations.
+      title: ""
+      description: ""
       collections:
         - featured
-        - travel
-    exif: {}
-  - path: nature/nature-1.jpg
-    meta:
-      title: Nature 1
-      description: ''
-      collections:
         - nature
-    exif: {}
+  - path: nature/img10.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img11.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img12.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img13.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img14.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img15.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+
+  - path: nature/img17.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img19.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img20.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  # - path: nature/img21.jpg
+  #   meta:
+  #     title: ""
+  #     description: ""
+  #     collections:
+  #       - featured
+  #       - nature
+  - path: nature/img22.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img23.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img24.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img25.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img26.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img27.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img28.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img29.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img30.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img31.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img32.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img33.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img34.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img35.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img36.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img37.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img38.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img39.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img40.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img41.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img42.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img43.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img44.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img45.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img46.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img47.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img48.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img49.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img50.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img51.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img52.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img53.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img54.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img55.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img56.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img57.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img58.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img59.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img60.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img61.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img62.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img63.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img64.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img65.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img66.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img67.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img68.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img69.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img70.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img71.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img72.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img73.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img74.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img75.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img76.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img77.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img78.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img79.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img80.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img81.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img82.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img83.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img84.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img85.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  # - path: nature/img86.jpg
+  #   meta:
+  #     title: ""
+  #     description: ""
+  #     collections:
+  #       - featured
+  #       - nature
+  - path: nature/img87.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img1.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img2.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img3.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img4.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img16.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img18.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img88.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img89.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img90.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+        - nature
+  - path: nature/img91.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature
+  - path: nature/img92.jpg
+    meta:
+      title: ""
+      description: ""
+      collections:
+        - featured
+        - nature

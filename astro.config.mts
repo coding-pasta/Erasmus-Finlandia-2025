@@ -1,11 +1,10 @@
 import { defineConfig } from 'astro/config';
-import tailwindcss from '@tailwindcss/vite';
+import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://rockem.github.io',
-	base: 'astro-photography-portfolio',
-	vite: {
-		plugins: [tailwindcss()],
-	},
+  site: 'https://coding-pasta.github.io',
+  base: '/Erasmus-Finlandia-2025/',
+  integrations: [tailwind()],
 });
+

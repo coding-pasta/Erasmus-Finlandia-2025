@@ -15,6 +15,7 @@ const { images } = Astro.props;
 	{
 		images.map((image) => (
 			<a
+			style="padding: 0.05rem"
 				href={image.src.src}
 				class="photo-item glightbox absolute transition-transform hover:scale-[1.02] hover:z-10"
 				data-gallery="gallery1"
@@ -22,6 +23,7 @@ const { images } = Astro.props;
 				data-glightbox={image.description ? `title: ${image.description}` : undefined}
 			>
 				<Image
+					
 					src={image.src}
 					quality={90}
 					format="webp"

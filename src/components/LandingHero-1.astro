@@ -1,24 +1,46 @@
 ---
-import siteConfig from '../../site.config.mjs';
+// import siteConfig from '../../site.config.mjs';
 
-const owner = siteConfig.owner;
-const base = import.meta.env.BASE_URL;
+// const owner = siteConfig.owner;
+// const base = import.meta.env.BASE_URL;
 ---
 
-<div class="absolute left-0 right-0 z-0">
+<div class="absolute left-0 right-0 z-0"> 
 	<div class="text-center mb-12 relative z-10">
 		<h1 class="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
-			{owner} Photography
+			Erasmus+ Finlandia 2025
 		</h1>
-		<p class="mt-4 text-base md:text-lg text-gray-700">A place to showcase my photography</p>
+		<!-- <p class="mt-4 text-base md:text-lg text-gray-700">Oto nasze wspomnienia</p> -->
 		<a
-			href=`${base}/collections`
+			id="featured-gallery-scroll" href="#" onclick="scrollToContent(); return false;"
 			class="mt-8 inline-block px-6 py-3 border-2 border-black rounded-md
                       hover:bg-black hover:text-white transition-all duration-300
                       text-sm md:text-base font-medium
                       transform hover:scale-105 active:scale-95"
 		>
-			View Gallery
+			Przejdź do galerii
 		</a>
 	</div>
 </div>
+<script is:inline>
+	const scrollToContent = () => {
+		window.scrollTo({
+			top: window.innerHeight,
+			behavior: 'smooth',
+		});
+	};
+
+	document.addEventListener('DOMContentLoaded', () => {
+		const button = document.getElementById('featured-gallery-scroll');
+
+		window.addEventListener('scroll', () => {
+			if (window.scrollY > 100) {
+				button.style.opacity = 0;
+				button.style.visibility = 'hidden';
+			} else {
+				button.style.visibility = 'visible';
+				button.style.opacity = 1;
+			}
+		});
+	});
+</script>

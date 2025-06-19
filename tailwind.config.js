@@ -1,6 +1,11 @@
 export default {
-	prefix: '',
-	theme: {
+    content: [
+        './src/**/*.{astro,js,ts,jsx,tsx,md}',
+        './public/**/*.html',
+    ],
+    prefix: '',
+    plugins: [require('@tailwindcss/typography')],
+    theme: {
 		container: {
 			center: true,
 			padding: '2rem',

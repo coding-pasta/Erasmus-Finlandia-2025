@@ -1,14 +1,41 @@
 ---
 import PhotoGrid from './PhotoGrid.astro';
 import { featuredCollectionId, getImages } from '../data/imageStore';
+import Image from 'astro/components/Image.astro';
 
 const images = await getImages({ collection: featuredCollectionId });
 ---
 
-<div class="max-w-2xl mx-auto text-center mb-16">
-	<h2 class="text-3xl md:text-4xl font-bold mb-4">Featured Works</h2>
-	<p class="text-gray-600">A selection of my best photographs from various adventures</p>
+<div class="max-w-2xl mx-auto text-center mb-8">
+	<h2 class="text-3xl md:text-4xl font-bold mb-8">Nasze wspomnienia</h2>
+	<p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+	Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+	Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+	Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
 </div>
 <div class="p-4">
 	<PhotoGrid images={images} />
+</div>
+<div class="mt-16 container-custom grid grid-cols-1 md:grid-cols-2 gap-16 text-justify">
+  <div class="mx-auto text-center">
+    <h2 class="text-3xl md:text-4xl font-bold mb-8">Nauka w OSAO</h2>
+    <img src="../gallery/nature/img1.jpg">
+	<p class="text-gray-600">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  
+      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+  </div>
+  <div class="mx-auto text-center">
+    <h2 class="text-3xl md:text-4xl font-bold mb-8">Co robiliśmy poza szkołą?</h2>
+    <img src="../gallery/nature/img1.jpg">
+	<p class="text-gray-600">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  
+      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+  </div>
 </div>
